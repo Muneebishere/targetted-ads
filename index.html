@@ -5,23 +5,13 @@
 
 <script type="text/javascript">
 
-$('body').prepend('<img height="1" width="1" style="border-style:none;" alt="" src="//insight.adsrvr.org/track/conv/?adv=k2cjyno&ct=0:p62v936&fmt=3"/>');
-var LHCChatOptions = {};
-LHCChatOptions.opt = 0;
 (function() {
 var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
 var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
-po.src = '//ichat.webdealersolutions.com/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(check_operator_messages)/true/(top)/350/(units)/pixels/(leaveamessage)/true/(department)/19/(theme)/15/(noresponse)/true?r='+referrer+'&l='+location;
+po.src = '//localhost:57740/index.php/chat/gettarget?r='+referrer+'&l='+location;
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 })();
-/*tcjong Custom Integration 2016 april 18*/
-//Add class to homepage region
-$('.index .ddc-layout .page-bd .region').each(function(e){
-var count = e +1
-$(this).addClass('reg'+count);
-});
-/*]]>*/
 
 </script>
 </head>
